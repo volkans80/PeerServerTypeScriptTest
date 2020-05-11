@@ -1,0 +1,19 @@
+{
+  "name": "peerservertypescripttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildts": "tsc --build",
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "peer": "^0.5.3",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
